@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZLam Personal Website 🌊 </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">ZL</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cv" class="nav-link">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">                <h1 class="hero-title">
+                    Hello, I'm <span class="highlight">Zoe Lam</span> 🌊
+                </h1>
+                <p class="hero-subtitle">Physics & Computer Science Student at HKU</p>                <p class="hero-description">
+                    Passionate about Internet of Things (IoT), embedded systems, and smart device development. 
+                    Exploring the intersection of hardware and software to create innovative connected solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>            <div class="hero-image">                <div class="profile-circle">
+                    <img src="profile.jpg" alt="Zoe Lam" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">                    <p>
+                        👽 Hello there! I am a third-year student at The University of Hong Kong something, 
+                        majoring in Physics and Computer Science. My primary interest lies in the Internet of Things (IoT) 
+                        and embedded systems development. I'm passionate about creating smart, connected devices 
+                        that bridge the physical and digital worlds, combining hardware design with innovative 
+                        software solutions to solve real-world problems.
+                    </p>
+                    <div class="skills-grid">                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <h3>IoT & Embedded Systems</h3>
+                            <p>Smart devices, sensor networks, connectivity</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h3>Hardware & Software</h3>
+                            <p>PCB design, firmware development, automation</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Connected Solutions</h3>
+                            <p>Smart systems, real-time data processing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>            <div class="projects-grid">
+                <a href="https://github.com/zl0618/C-T-R-L" target="_blank" class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <h3>CTRL Macropad</h3>
+                    <p>A custom macropad designed from scratch using Cherry MX switches and ESP32-C6, featuring PCB design and Python automation scripts.</p>
+                    <div class="project-tags">
+                        <span class="tag">PCB Design</span>
+                        <span class="tag">ESP32 with Arduino</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </a>
+                <a href="https://github.com/zl0618/IMU_Visualiser" target="_blank" class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>IMU Visualiser</h3>
+                    <p>Real-time 3D visualization tool for IMU data analysis with ESP32-based modules, featuring smooth roll, pitch, and yaw movements.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">hardware</span>
+                    </div>
+                </a>
+                <a href="https://github.com/zl0618/LIDAR" target="_blank" class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-radar-chart"></i>
+                    </div>
+                    <h3>MS200 LIDAR Visualizer</h3>
+                    <p>High-performance LIDAR visualization system with 50ms update intervals, featuring real-time polar visualization without ROS dependency.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">hardware</span>
+                    </div>
+                </a>
+                <a href="https://github.com/zl0618/Harvest_Date_Prediction" target="_blank" class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Harvest Date Prediction</h3>
+                    <p>AI-powered prediction model for optimal lettuce harvest timing based on environmental factors, reducing food waste in agriculture.</p>
+                    <div class="project-tags">
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">Scikit-learn</span>
+                    </div>
+                </a>
+            </div>
+        </div>    </section>    <!-- CV Section -->
+    <section id="cv" class="cv">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+              <!-- CV Download Button -->
+            <div class="cv-download">
+                <a href="Zoe_Lam_CV.pdf" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-download"></i>
+                    Download Full CV
+                </a>
+            </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">                <div class="contact-info">
+                    <p>Let's connect and discuss IoT, embedded systems, or any exciting tech projects!</p>                    <div class="social-links">
+                        <a href="mailto:zoelam1215@outlook.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://github.com/zl0618" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/zl0618" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Zoe Lam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
